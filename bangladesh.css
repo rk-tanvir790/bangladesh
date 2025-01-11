@@ -1,0 +1,74 @@
+/* Start Common Style */
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Fira Sans", serif;;
+}
+body{
+    padding: 0 160px;
+    background-color: #F1F1F3;
+}
+.primary-btn{
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+}
+
+/* End Common Style */
+
+/* Start Navbar Style */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.navbar h3{
+    font-weight: 700;
+    font-size: 32px;
+    color:#0E0E0E;
+}
+.navbar button{
+    padding: 15px 30px;
+    border-radius: 8px;
+    color:#006A50;
+    font-weight: 500;
+    font-size: 18px;
+    border: 1px solid #006A50;
+}
+
+/* End Navbar Style */
+
+/* Start Hero Section Style */
+
+.header{
+    background-color: #C6E4D6;
+    padding: 80px;
+    border-radius: 24px;
+    display: flex;
+    gap: 200px;
+}
+.header-content{
+    margin: 117px 0;
+}
+.header-content h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.header-content h1{
+    font-weight: 700;
+    font-size: 56px;
+    color: #0E0E0E;
+    max-width: 615px;
+    margin: 16px 0 24px 0;
+}
+.header-banner{
+    margin: 80px 0;
+}
+
+/* End Hero Section Style */
