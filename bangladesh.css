@@ -1,12 +1,14 @@
-/* Start Common Style */
+/* start Common Css */
 *{
     margin: 0;
-    padding:0;
-    font-family: "Fira Sans", serif;;
+    padding: 0;
+    font-family: "Fira Sans", serif;
 }
 body{
-    padding: 0 160px;
+    max-width: 1600px;
     background-color: #F1F1F3;
+    margin: 0 auto;
+    padding: 0 160px;
 }
 .primary-btn{
     padding: 17px 34px;
@@ -43,6 +45,21 @@ body{
     font-weight: 600;
     font-size: 16px;
     border: none;
+    color: #ffffff;
+}
+.news-title{
+    font-weight: 700;
+    font-size: 32px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.news-btn{
+    padding: 13px 26px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    background-color: #006A50;
     color: #ffffff;
 }
 
@@ -157,3 +174,31 @@ body{
     line-height: 24px;
     color: rgba(14, 14, 14, 0.6);
 }
+/* start Recent News Section Style */
+
+.recent-news{
+    margin: 80px 0;
+}
+.recent-news h2{
+    margin-bottom: 24px;
+}
+.news-items{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 48px;
+    border-radius: 24px;
+}
+.item-rotet{
+    margin: 24px 0;
+    flex-direction: row-reverse;
+}
+.time-date p{
+    display: inline-block;
+    margin: 12px 12px 12px 0;
+}
+.news-banner img{
+    border-radius: 24px;
+}
+/* End Recent News Section Style */
