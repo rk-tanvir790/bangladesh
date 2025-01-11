@@ -17,6 +17,34 @@ body{
     font-size: 18px;
     border: none;
 }
+.section-heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.section-content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.vision-item{
+    padding: 30px;
+    border-radius: 16px;
+}
+.card-btn{
+    padding: 11px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    color: #ffffff;
+}
 
 /* End Common Style */
 
@@ -72,3 +100,60 @@ body{
 }
 
 /* End Hero Section Style */
+
+/* start The Vision Of Future Section Style */
+
+.future-vision{
+    margin: 80px 0;
+}
+.future-vision h2{
+    margin-bottom: 24px;
+}
+.vision-items{
+    display: flex;
+    gap: 24px;
+    margin: 32px 0;
+}
+.vision-item img,h4,p{
+    margin-bottom: 24px;
+}
+.blue{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.blue button{
+    background-color: #5490F5;
+}
+.green{
+    background-color: #C6E4D6;
+}
+.green button{
+    background-color: #09A15C;
+}
+.light{
+    background-color: #F7EBCF;
+}
+.light button{
+    background-color: #FFC239;
+}
+.vision-content{
+    background-color: #ffffff;
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+.content-raper{
+    background-image: url(assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.vision-content h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 5px;
+}
+.vision-content h6{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.6);
+}
