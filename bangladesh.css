@@ -202,3 +202,38 @@ body{
     border-radius: 24px;
 }
 /* End Recent News Section Style */
+/* start Donate ection Style */
+.donate{
+    text-align: center;
+    margin: 80px 0;
+}
+.donate h2{
+    margin-bottom: 24px;
+}
+.donate-prices{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin: 32px 0;
+}
+.donate-item button{
+    padding: 40px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    border: none;
+    font-weight: 700;
+    font-size: 40px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.tk button{
+    background-color: #C6E4D6;
+}
+.donate input{
+    padding: 20px 40px;
+    background-color: #fff;
+    width: 1000px;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
